@@ -4,19 +4,18 @@
  height: 100%;
   article{
     margin-right: 10%;
-    // margin-top: 5%;
     float: right;
     width: 50%;
     padding: 3%;
     border-radius: 5px;
-    color: white;
+    color: $themeColorLite;
     font-family: 'Roboto', sans-serif;
     position: relative;
   }
   hr {
     height: 1px;
-    color: white;
-    background: white;
+    color: $themeColorLite;
+    background: $themeColorLite;
     font-size: 0;
     border: 0;
   }
@@ -60,6 +59,19 @@ time {
     background-color:$lineColor ;
     border-radius: 50px;
     position:absolute;
-    left: -20.5%;
+    left: -20%;
 
 }
+
+@media screen
+and (min-width:400px ) and (max-width: 768px)
+ {
+   .vertical-line {
+     margin-top: 2%;
+       width: 5px;
+       height: 100%;
+       position: absolute;
+       left: -20%;
+     }
+
+  }
