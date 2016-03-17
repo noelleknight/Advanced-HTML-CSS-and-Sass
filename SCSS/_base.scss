@@ -1,35 +1,17 @@
 
-.date
- {
-   margin-left: 10%;
-   margin-top: 5%;
-   float: left;
-   width:20%;
 
-
-    p {
-    color: $dateColor;
-    font-size: 1em;
-    font-family:'Roboto Slab', serif;
-
-  }
-    h1 {
-      margin-bottom: 95%;
-    }
-}
 .main{
-
-
+ height: 100%;
   article{
-    margin-left: 5%;
-    margin-top: 5%;
-    float: left;
+    margin-right: 10%;
+    // margin-top: 5%;
+    float: right;
     width: 50%;
     padding: 3%;
     border-radius: 5px;
     color: white;
     font-family: 'Roboto', sans-serif;
-
+    position: relative;
   }
   hr {
     height: 1px;
@@ -38,21 +20,46 @@
     font-size: 0;
     border: 0;
   }
-  .one {
-    position: relative;
-    background-color: $lineColor;
-  }
-  .two {
-    background-color: #90E3FF;
-  }
-  .three {
-    background-color: #B6FFFF;
+    .one {
+      background-color: $lineColor;
+
+    }
+    .two {
+      background-color: #90E3FF;
+    }
+    .three {
+      background-color: #B6FFFF;
+    }
+    .vertical-line {
+        width: 5px;
+        background-color: $lineColor;
+        height: 100%;
+        position: absolute;
+        left: -15%;
+      }
+}
+
+time {
+  height: 100%;
+  position: absolute;
+  left: -40%;
+
+      p {
+    color: $dateColor;
+    font-size: 1em;
+    font-family:'Roboto slab', serif;
+      }
+    h1 {
+      color: $lineColor;
+      font-size: 2em;
   }
 }
-.vertical-line {
-    width: 5px;
-    background-color: red;
-    height: 100%;
-    position: absolute;
-    left: -20%;
+.square {
+    height: 80px;
+    width: 80px;
+    background-color:$lineColor ;
+    border-radius: 50px;
+    position:absolute;
+    left: -20.5%;
+
 }
