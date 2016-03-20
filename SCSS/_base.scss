@@ -2,76 +2,46 @@
 
 .main{
  height: 100%;
-  article{
-    margin-right: 10%;
-    float: right;
-    width: 50%;
-    padding: 3%;
-    border-radius: 5px;
-    color: $themeColorLite;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-  }
-  hr {
-    height: 1px;
-    color: $themeColorLite;
-    background: $themeColorLite;
-    font-size: 0;
-    border: 0;
-  }
-    .one {
-      background-color: $lineColor;
-
-    }
-    .two {
-      background-color: #90E3FF;
-    }
-    .three {
-      background-color: #B6FFFF;
-    }
-    .vertical-line {
-        width: 5px;
-        background-color: $lineColor;
-        height: 100%;
-        position: absolute;
-        left: -15%;
-      }
 }
 
-time {
-  height: 100%;
-  position: absolute;
-  left: -40%;
+.L-one {
+  text-align: right;
+  margin-top: 10%;
+  width: 25%;
+  float: left;
+  padding-right: 5%;
 
-      p {
-    color: $dateColor;
-    font-size: 1em;
-    font-family:'Roboto slab', serif;
-      }
+    time {
+      font-family: sans-serif;
+      color: gray;
+      size: 1em;
+    span {
+      font-family: sans-serif;
+      color: #6CBFEE;
+      font-size: 3em;
+
+    }
+    }
+}
+
+.R-one {
+  margin-top: 10%;
+  width:50%;
+  float: left;
+  margin-right: 5%;
+  background-color: #6CBFEE;
+  border-radius: 10px;
+  padding: 2%;
     h1 {
-      color: $lineColor;
-      font-size: 2em;
-  }
-}
-.square {
-    height: 80px;
-    width: 80px;
-    background-color:$lineColor ;
-    border-radius: 50px;
-    position:absolute;
-    left: -20%;
+      font-family: sans-serif;
+      color: white;
+      font-weight: bold;
+      p {
+        font-family: sans-serif;
+        color: white;
+        font-weight: normal;
+        font-size: .7em;
+      }
+    }
 
 }
-
-@media screen
-and (min-width:400px ) and (max-width: 768px)
- {
-   .vertical-line {
-     margin-top: 2%;
-       width: 5px;
-       height: 100%;
-       position: absolute;
-       left: -20%;
-     }
-
-  }
